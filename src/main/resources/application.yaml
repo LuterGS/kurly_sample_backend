@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: ${ADD_YOUR_PASSWORD}
+    url: jdbc:mysql://127.0.0.1:3306/test_db
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create
+    show-sql: false
+
